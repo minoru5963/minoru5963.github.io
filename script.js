@@ -1,26 +1,26 @@
 const quizData = [
     {
-        question: "豊田綱領を選んでみよう",
-        options: ["上下一致", "至誠業務に服し", "産業報国の実を挙ぐべし", "Fortran", "Assembly"],
-        answer: 3
+        //question: "豊田綱領を選んでみよう",
+        options: ["CH-R", "GR-Yaris", "Prius", "Prius-α"],
+        answer: 4
     },
     {
-        question: "豊田綱領を選んでみよう",
+       // question: "豊田綱領を選んでみよう",
         options: ["研究と創造に心を致し", "常に時流に先んずべし"],
         answer: 2
     },
     {
-        question: "豊田綱領を選んでみよう",
+        //question: "豊田綱領を選んでみよう",
         options: ["華美を戒め", "質実剛健たるべし"],
         answer: 2
     },
     {
-        question: "豊田綱領を選んでみよう",
+        //question: "豊田綱領を選んでみよう",
         options: ["温情友愛の精神を発揮し", "家庭的美風を作興すべし"],
         answer: 2
     },
     {
-        question: "豊田綱領を選んでみよう",
+        //question: "豊田綱領を選んでみよう",
         options: ["神仏を尊崇し", "報恩感謝の生活を為すべし"],
         answer: 2
     },
@@ -46,15 +46,21 @@ function showQuiz() {
   optionsContainer.innerHTML = "";
 
   //問題表示
-  questionElement.innerHTML = quizData[currenQuestion].question;
+  //questionElement.innerHTML = quizData[currenQuestion].question;
 
   //選択肢表示
   quizData[currenQuestion].options.forEach((option, index) => {
     const optionElement = document.createElement("button");
     optionElement.innerHTML = option;
-    optionElement.addEventListener("click", () => checkAnswer(index));
+    optionElement.addEventListener("click", () => highlightElement());
     optionsContainer.appendChild(optionElement);
   });
+}
+
+//ボタンチェック
+function highlightElement() {
+    var target = document.getElementById("target-element");
+    target.classList.toggle("highlight");
 }
 
 //答えチェック
