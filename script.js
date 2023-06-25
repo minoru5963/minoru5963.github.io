@@ -1,5 +1,3 @@
-// 各課
-const shopData = ["エンジン部品製造課", "１２エンジン製造課", "１８エンジン製造課", "クイズ"];
 
 function selectButton(index) {
   shopSelect(index);
