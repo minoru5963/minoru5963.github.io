@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js" defer></script>
+    <title>エンジン製造部紹介</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>下山工場 エンジン製造部へようこそ！</h1>
+    <p id = "simoyamaMap">　下山全体マップ　</p>
+    <div id="image">
+         <img src="piyopiyohaikei2.jpg" width="550" height="250" alt="１２説明" />
+    </div>
+    <div class="shopName"></div>
+    <p class="shopName">職場紹介：エンジン製造部　部付 </p>   
+    <div id="plantImage"></div>
+    <h3>工場外観</h3>
+    <img src="imageSimoyama.jpg" width="250" height="200">  
+    <h3>上空写真</h3>
+    <img src="mapSimoyama.jpg" width="250" height="200">  
+    <div id="plantMap">
+        <div id="map"></h2>
+            <img src="simoyama.jpg" width="550" height="500">
+        </div>
+        <div id="workPlace">
+            <h2>どこを見ますか？</h2>
+            <input class="button" type="button" value="エンジン部品製造課" onclick="selectButton(0)">
+            <input class="button" type="button" value="１２エンジン製造課" onclick="selectButton(1)">
+            <input class="button" type="button" value="１８エンジン製造課" onclick="selectButton(2)">
+            <input id="button1" type="button" value="エンジン製造部　部付" onclick="selectButton(3)">
+            <input id="button2" type="button" value="クイズへ" onclick="selectButton(4)">
+        </div>
+</body>
+</html>
