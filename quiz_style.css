@@ -53,16 +53,12 @@ returnButton1 {
     margin: 20px;
 }
 
-#imageContainer img {
+#image img {
     width: 500px;
     height: 400px;
     position:absolute;
     top:120px;
     left:750px;
-    margin: 20px;
-}
-
-#quiz-container {
     margin: 20px;
 }
 
@@ -73,7 +69,7 @@ returnButton1 {
     margin: 20px;
 }
 
-#final-result {
+#finalResult {
     position:absolute;
     top:240px;
     left:10px;
