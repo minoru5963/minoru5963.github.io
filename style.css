@@ -1,59 +1,40 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(234, 245, 245);
+    background-color: white;
 }
 
-#plantImage {
-  top: 0px;
-  left: 10px;
-}
-
-#simoyamaMap {
-    position: fixed;
-    top:50px;
-    left: 280px;
-    margin: 20px;
-    font-weight: bold;
-  }
-
-#plantMap {
-  position: fixed;
-  top:80px;
-  left: 280px;
-  margin: 20px;
-}
-
-#workPlace {
-  position: absolute;
-  top: 300px;
-  left: 600px;
-  width: 280px;
-  height: 240px;
-}
-
-#image {
-  position: absolute;
-  top: 100px;
-  left: 870px;
-}
-
-.shopName {
-    position: absolute;
+#shopName {
+    position: absolute; 
+    display: block;
+    width: 300px;
+    height: 300px;
+    top: 50px;
+    left: 270px;
     font-family:  游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: larger;
-    top: 50px;
-    left: 870px;
+  }
+  
+  #image {
+  position: absolute; 
+  top: 120px;
+  left: 270px;
+}
+
+#plantMap {
+  position: absolute;
+  top:10px;
+  left: 790px;
+  margin: 10px;
 }
 
 .button {
-    top:400px;
-    left: 800px;
     margin:0px;
     display: block;
     margin-bottom: 10px;
     padding: 10px;
-    width: 70%;
+    width: 60%;
     background-color: #b8c2ca;
     border: none;
     border-radius: 4px;
@@ -62,9 +43,9 @@ body {
 }
 
 #button1 {
-    position: fixed;
-    top:475px;
-    left: 1150px;
+    position: absolute;
+    top:435px;
+    left: 220px;
     margin:0px;
     display: block;
     width: 200px;
@@ -77,12 +58,13 @@ body {
 }
 
 #button2 {
-    position: fixed;
-    top:580px;
-    left: 1150px;
+    position: absolute;
+    top:510px;
+    left: 220px;
     display: block;
     border: 4px solid #333;
     border-radius: 8px;
     width: 200px;
     height: 40px;
+    cursor: pointer;
 }
