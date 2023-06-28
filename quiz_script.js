@@ -4,7 +4,6 @@ const quizData = [
         question: "トヨタウェイって？",
         options: ["競争を推奨する", 
                   "「だれか」のために",
-                  "情報を出さない",
                   "知識を上げる",
                   "余力を使い切る"],
         answer: 2
@@ -22,20 +21,17 @@ const quizData = [
     {
         question: "トヨタ生産方式の２本の柱は？",
         options: ["ジャストインタイムと自動化", 
-                  "ジャストタイムと自働化", 
-                  "ジャストシステムと高能率化", 
                   "ジャストインタイムと自働化", 
                   "ジャストインタイムと生産性向上"],
-        answer: 4
+        answer: 2
     },
     {
         question: "安全の門に書いてあるのは？",
-        options: ["失敗のない作業", 
+        options: ["熟練した作業",
                   "不安全な作業",
-                  "熟練した作業",
                   "直感的な判断",
                   "確実な報告"],
-        answer: 3
+        answer: 1
     },
     {
         question: "「豊田綱領」間違えはどれ？",
@@ -136,4 +132,5 @@ function showFinalResult() {
   document.body.appendChild(btn1); // ボタンをbody要素に追加
   return;   
 }
+
 
