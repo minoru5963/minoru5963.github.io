@@ -26,7 +26,6 @@ returnButton {
     position:absolute;
     top:270px;
     left:220px;
-
 }
 
 returnButton1 {
@@ -41,12 +40,9 @@ returnButton1 {
     position:absolute;
     top:270px;
     left:450px;
-
 }
 
 #imageName {
-    /*width: 400px;
-    height: 400px;*/
     position:absolute;
     top:60px;
     left: 750px;
